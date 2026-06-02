@@ -77,12 +77,13 @@ while not ganador:
 
         # Gana si obtiene 3 pares consecutivos
         if dados_iguales[i] == 3:
-            print(f"\n🏆 ¡Jugador {i+1} gana por obtener 3 dados iguales consecutivos!")
+            print(f"\n ¡Jugador {i+1} gana por obtener 3 dados iguales consecutivos!")
             ganador = True
             break
 
         # Gana si llega o supera la meta
         if posiciones[i] >= meta:
-            print(f"\n🏆 ¡Jugador {i+1} ha llegado a la meta y gana la carrera!")
+            print(f"\n ¡Jugador {i+1} ha llegado a la meta y gana la carrera!")
             ganador = True
             break
+        
